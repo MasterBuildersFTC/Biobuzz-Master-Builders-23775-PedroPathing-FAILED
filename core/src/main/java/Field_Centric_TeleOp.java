@@ -91,7 +91,7 @@ public class Field_Centric_TeleOp extends LinearOpMode {
         Odometry.setEncoderDirections(GoBildaPinpointDriver.EncoderDirection.FORWARD, GoBildaPinpointDriver.EncoderDirection.FORWARD);
 */
         while (opModeIsActive()) {
-        }
+            Drive_Controls()
         }
     private void Scissor_Lift() {
         double ElapsedTime = runTime.seconds();
